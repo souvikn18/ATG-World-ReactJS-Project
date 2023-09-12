@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#placeholder::placeholder{
+  color: #5c5c5c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* #herobg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  background-color: rgba(0,0,0,0.5)
+} */
+.bgimage{
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%,
+  rgba(0, 0, 0, 0.60) 100%), url(./Components/Images/Rectangle\ 2.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1440px;
+  height: 440px;
+  margin: auto;
+}
